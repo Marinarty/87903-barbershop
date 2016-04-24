@@ -5,6 +5,11 @@ body {
   font-weight: normal;
   font-family: "PT Sans Narrow"
 }
+
+body {
+  background: #000000 url("../barbershop-shop-grid.jpg") no-repeat 50% 3px;
+  background-size: 1122px auto;
+}
 h1 {
   font-size: 30px;
   line-height: 42px;
