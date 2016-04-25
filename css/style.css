@@ -6,7 +6,7 @@ body {
   font-family: "PT Sans Narrow"
 }
 body {
-  background: #000000 url("../img/barbershop-shop-grid.jpg") no-repeat 50% 3px;
+  background: #000000 url("../img/barbershop-item-grid.jpg") no-repeat 50% 3px;
   background-size: 1122px auto;
 }
 
@@ -92,6 +92,40 @@ h3 {
   float: left;
 }
 
+.item-images {
+  float: left;
+  height: 460px;
+  padding-left: 10px;
+  /* Только для оформления сетки */
+  height: 670px;
+  background-color: green;
+}
+
+.item-info {
+  float: right;
+  width: 390px;
+  /* Только для оформления сетки */
+  height: 670px;
+  background-color: grey;
+}
+.item-details {
+  background-color: red;
+  margin-bottom: 42px;
+}
+
+
+.item-avalability {
+  float: left;
+}
+
+.item-articul {
+  float: right;
+}
+
+.item-description,
+.buy-item {
+  margin-bottom: 42px;
+}
 
 .main-footer {
   margin-top: 65px;
