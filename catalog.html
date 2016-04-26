@@ -11,7 +11,21 @@
         <nav class="main-navigation">
           <a class="logo" href="#" title="Барбершоп «Бородинский»"><img src="img/small-logo.png" width="111" height="24" alt="Барбершоп «Бородинский»"></a>
           <ul>
-<!-- тут вставить список в хедере-->
+            <li>
+              <a href="#">Информация</a>
+            </li>
+            <li>
+              <a href="#">Новости</a>
+            </li>
+            <li>
+              <a href="#">Прайс-лист</a>
+            </li>
+            <li>
+              <a href="#">Магазин</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
           </ul>
         </nav>
         <div class="user-block">
@@ -22,11 +36,49 @@
     <main class="container clearfix">
       <h1 class="title">Средства для ухода</h1>
       <ol class="breadcrumbs">
-  <!-- тут вставить хлебные крошки-->
+         <li>
+           <a href="#">Главная</a>
+         </li>
+         <li>
+           <a href="#">Магазин</a>
+         </li>
+         <li>Средства для ухода</li>
       </ol>
       <form class="filtres">
-
-        <!-- тут вставить форму-->
+        <fieldset class="form-brands">
+          <legend>Производители:</legend>
+          <label>
+            <input type="checkbox" checked>Baxter of California
+          </label>
+          <label>
+            <input type="checkbox">Mr Natty
+          </label>
+          <label>
+            <input type="checkbox" checked>Suavecito
+          </label>
+          <label>
+            <input type="checkbox">Malin+Goetz
+          </label>
+          <label>
+            <input type="checkbox">Murray's
+          </label>
+          <label>
+            <input type="checkbox" checked>American Crew
+          </label>
+        </fieldset>
+        <fieldset class="form-categories">
+          <legend>Группы товаров:</legend>
+          <label>
+            <input type="radio">Бритвенные принадлежности
+          </label>
+          <label>
+            <input type="radio" checked>Средства для ухода
+          </label>
+          <label>
+            <input type="radio">Аксессуары
+          </label>
+        </fieldset>
+      <button class="btn">Показать</button>
     </form>
       <div class="items">
         <div class="item-tile">
@@ -86,7 +138,7 @@
       </div>
     </main>
     <footer class="main-footer">
-      <div class="container">
+      <div class="container clearfix">
         <section class="footer-contacts">
           Барбершоп «Бородинский»<br>
           Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
