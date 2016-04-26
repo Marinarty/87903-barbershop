@@ -5,10 +5,6 @@ body {
   font-weight: normal;
   font-family: "PT Sans Narrow"
 }
-body {
-
-}
-
 
 h1 {
   font-size: 30px;
@@ -50,6 +46,53 @@ h3 {
   width: 140px;
 
 }
+
+.index-logo {
+  width: 368px;
+  min-height: 204px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+}
+
+.features {
+  margin-bottom: 80px;
+}
+
+.features-item {
+  float: left;
+  width: 300px;
+  margin-right: 20px;
+
+  /* Только для оформления сетки */
+  min-height: 175px;
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+
+.index-content {
+  margin-bottom: 35px;
+  padding: 50px 80px;
+}
+
+.index-content-left {
+  float: left;
+  width: 380px;
+
+  /* Только для оформления сетки */
+  min-height: 330px;
+}
+
+.index-content-right {
+  float: right;
+  width: 300px;
+
+  /* Только для оформления сетки */
+  min-height: 330px;
+}
+
 .breadcrumbs {
   margin-top: 30px;
   margin-bottom: 60px;
@@ -59,6 +102,7 @@ h3 {
   float: left;
   width: 220px;
   padding-left: 10px;
+  margin-right: 10px;
 
 
   /* Только для оформления сетки */
@@ -94,6 +138,7 @@ h3 {
 
 .pages-nav {
   display: block;
+  font-size: 14px;
 }
 
 .item-images {
@@ -113,14 +158,13 @@ h3 {
 
 }
 .item-details {
-  background-color: red;
   margin-bottom: 42px;
 }
 
 
 .item-avalability {
   float: left;
-  width: : 90px;
+  width: 90px;
 }
 
 .item-articul {
@@ -138,7 +182,10 @@ h3 {
   margin-top: 65px;
   padding-top: 60px;
   padding-bottom: 40px;
-  background-color: yellow;
+}
+
+.catalog {
+  margin-top: 50px;
 }
 
 .footer-contacts {
